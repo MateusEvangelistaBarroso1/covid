@@ -1,0 +1,79 @@
+
+body{
+    cursor: pointer;
+    font-family:'Roboto', sans-serif;
+}
+
+a{
+     text-decoration: none;
+}
+.content{
+    width: 500px;
+    height: 100vh;
+    border: 4px solid black;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 5px;
+}
+h3.format-titulo{
+    font-size: 25pt;
+    color: red;
+    text-shadow: 1px 8px 1px blue;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+}
+h3.format-titulo:hover{
+    text-shadow: 3px 3px 3px black;
+    transition: 400ms;
+}
+a.format-developer{
+    font-size: 25px;
+    color: red;
+    transition: 400ms;
+}
+
+a.format-developer:hover{
+     color: black;
+
+}
+
+main.page-main{
+    width: 250px;
+    height: 250px;
+    border: 4px solid #000;
+    box-shadow: 1px 1px 10px red;
+    margin-top: 50px;
+    border-radius: 50%;
+    position: relative;
+}
+
+
+span.format-square{
+    margin-top: 250px;
+    display: block;
+    position: absolute;
+    width: 50px;
+    height: 150px;
+    border: 3px solid black;
+    margin-right: 48px;
+   transform: skewX(-20deg) skewY(-10deg);
+}
+.format-square1{
+     width:150px;
+     height: 150px;
+    position: absolute;
+    margin-left: 48px;
+    margin-top: 40px;
+    border: 4px solid blue;
+    transition: 1s;
+    box-shadow: 1px 1px 1px black;
+}
+.format-square1:hover{
+    transform: rotate(-180deg);
+    background-color: red;
+    border: none;
+    border-radius: 50%;
+
+}
